@@ -69,9 +69,6 @@ This project was built **strictly using TDD** principles. Here's how I approache
 
 Here’s a screenshot showing all my tests successfully passing:
 
-> 🖼️ **Insert your screenshot below this line**  
-> *(e.g., IntelliJ JUnit test results or terminal `mvn test` results)*
-
 ![All Tests Passing](screenshots/all-tests-pass.png)
 
 ---
