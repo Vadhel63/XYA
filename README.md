@@ -4,41 +4,46 @@ This project is a **TDD-first implementation** of the classic **String Calculato
 
 It demonstrates strict adherence to **Test-Driven Development**, clean Java practices, and comprehensive JUnit testing.
 
----
+---## 📌 What is TDD?
 
-## 📌 What is TDD?
+> **🧪 TDD (Test-Driven Development)** is a software development methodology where you:
+> 
+> 1️⃣ **Write tests before writing the actual code**  
+> 2️⃣ Only write code that is required to pass the test  
+> 3️⃣ Continuously **refactor** and improve the implementation  
 
-> **TDD (Test-Driven Development)** is a software development process where tests are written **before the actual code**. It follows the cycle:
+It follows a simple but powerful cycle:
 
+🔁 **Red → Green → Refactor**
 
-📜 TDD Approach Followed
-
-This assignment was developed using Test-Driven Development (TDD) strictly:
-
-Wrote failing tests first (empty input, negative numbers, custom delimiters, etc.)
-
-Wrote minimal code to make them pass.
-
-Refactored after each test to keep the code clean and modular.
-
-✔️ TDD Laws (by Uncle Bob):
-
-You cannot write production code unless there is a failing test.
-
-You cannot write more of a test than is sufficient to fail.
-
-You cannot write more production code than is sufficient to pass the test.
-
-
-In this project:
-- I **started with the simplest tests** (empty string, single number)
-- Gradually **added features** (custom delimiters, error handling, call count tracking)
-- Always wrote **tests first**, then implementation
-- Ensured all tests **stay green** throughout development
-
-📚 Reference: [Three Laws of TDD by Uncle Bob](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+- 🔴 **Red**: Write a failing test  
+- 🟢 **Green**: Write the minimum code to make the test pass  
+- 🔄 **Refactor**: Clean up the code while keeping all tests green  
 
 ---
+
+## 📐 TDD Approach Followed in This Project
+
+This project was built **strictly using TDD** principles. Here's how I approached it:
+
+✅ **Step-by-Step Process**:
+- ✍️ Wrote **failing test cases first** (e.g., empty input, newlines, negatives, etc.)
+- 🧱 Wrote just enough **code to make the tests pass**
+- 🧹 Performed **refactoring after each passing test** to improve code structure
+- ♻️ Repeated the cycle for each new feature
+
+📘 **TDD Laws (by Uncle Bob)**:
+> 🧑‍🏫 The Three Laws of TDD:
+> 
+> 1. You may not write production code unless you have a failing test.  
+> 2. You may not write more of a test than is sufficient to fail.  
+> 3. You may not write more production code than is sufficient to pass the test.
+
+🔗 [📚 Read More](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+
+---
+
+
 ## ✅ Features Implemented
 
 | #  | Requirement                                                                         | Status |
