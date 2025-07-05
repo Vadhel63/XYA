@@ -98,23 +98,21 @@ Here’s a screenshot showing all my tests successfully passing:
 
 ## 📁 Project Structure
 
-The project follows a clean and organized Maven directory layout:
-
+```
 TDD-Assesment_Incubyte/
 ├── src/
-│ ├── main/
-│ │ └── java/org/VadhelMilan/
-│ │ └── StringCalculator.java ← Core logic implementation
-│ └── test/
-│ └── java/org/VadhelMilan/
-│ └── StringCalculatorTest.java ← All JUnit test cases
+│   ├── main/
+│   │   └── java/org/VadhelMilan/
+│   │       └── StringCalculator.java         ← Core logic implementation
+│   └── test/
+│       └── java/org/VadhelMilan/
+│           └── StringCalculatorTest.java     ← All JUnit test cases
 ├── screenshots/
-│ └── all-tests-pass.png ← Screenshot of successful test run
-├── pom.xml ← Maven build configuration
-└── README.md ← Project documentation (you’re reading it!)
+│   └── all-tests-pass.png                    ← Screenshot of successful test run
+├── pom.xml                                   ← Maven build configuration
+└── README.md                                 ← Project documentation (you’re reading it!)
+```
 
-
----
 
 
 📦 The structure supports easy testing, modularity, and clean separation of logic and tests — following best software engineering practices.
@@ -127,7 +125,7 @@ This project is built using industry-standard tools and libraries:
 
 | 🔧 Component     | 💡 Description                                      |
 |------------------|-----------------------------------------------------|
-| ☕ **Java 8+**     | Primary programming language                        |
+| ☕ **Java 21**     | Primary programming language                        |
 | ✅ **JUnit 4.13.2**| Testing framework for all unit tests               |
 | 🧰 **Maven**       | Build automation and dependency management tool     |
 | 📏 **Regex**        | Used (`Pattern`, `Matcher`) to extract custom delimiters dynamically |
