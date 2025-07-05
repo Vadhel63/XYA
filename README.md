@@ -13,7 +13,6 @@ It demonstrates strict adherence to **Test-Driven Development**, clean Java prac
 > 3️⃣ Continuously **refactor** and improve the implementation  
 
 It follows a simple but powerful cycle:
-![TDD Lifecycle](https://camo.githubusercontent.com/4c4712dd1ab78102f21c2bb24b5e51f69ea9677972fb4cb547a2f64cf707267b/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6476636e66616479312f696d6167652f75706c6f61642f76313735313635363939312f5444442532306b6174612f706173732d305f6a7a766962772e706e67)
 
 
 🔁 **Red → Green → Refactor**
