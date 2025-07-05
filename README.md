@@ -113,19 +113,6 @@ TDD-Assesment_Incubyte/
 
 📏 Regex (Pattern, Matcher) for delimiter parsing
 
----
-
-
-## 🛠️ How to Run
-
-1. Ensure Java 8+ and Maven are installed.
-2. Clone the repository.
-3. Run all tests with:
-
-```bash
-mvn clean test
-
----
 
 
 ---
