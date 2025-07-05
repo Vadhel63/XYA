@@ -39,7 +39,7 @@ This project was built **strictly using TDD** principles. Here's how I approache
 > 2. You may not write more of a test than is sufficient to fail.  
 > 3. You may not write more production code than is sufficient to pass the test.
 
-🔗 [📚 Read More](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+📚 Reference: [Three Laws of TDD by Uncle Bob](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
 
 ---
 
@@ -95,30 +95,46 @@ Here’s a screenshot showing all my tests successfully passing:
 
 ---
 
-## 📂 Project Structure
+
+## 📁 Project Structure
+
+The project follows a clean and organized Maven directory layout:
 
 TDD-Assesment_Incubyte/
 ├── src/
-│ ├── main/java/org/VadhelMilan/StringCalculator.java
-│ └── test/java/org/VadhelMilan/StringCalculatorTest.java
+│ ├── main/
+│ │ └── java/org/VadhelMilan/
+│ │ └── StringCalculator.java ← Core logic implementation
+│ └── test/
+│ └── java/org/VadhelMilan/
+│ └── StringCalculatorTest.java ← All JUnit test cases
 ├── screenshots/
-│ └── all-tests-pass.png ← Upload your test screenshot here
-├── pom.xml
-└── README.md
+│ └── all-tests-pass.png ← Screenshot of successful test run
+├── pom.xml ← Maven build configuration
+└── README.md ← Project documentation (you’re reading it!)
+
 
 ---
 
-🧱 Technology Stack
 
-☕ Java 8+
+📦 The structure supports easy testing, modularity, and clean separation of logic and tests — following best software engineering practices.
 
-✅ JUnit 4.13.2
+---
 
-🧰 Maven (build tool)
+## 🧱 Technology Stack
 
-📏 Regex (Pattern, Matcher) for delimiter parsing
+This project is built using industry-standard tools and libraries:
 
+| 🔧 Component     | 💡 Description                                      |
+|------------------|-----------------------------------------------------|
+| ☕ **Java 8+**     | Primary programming language                        |
+| ✅ **JUnit 4.13.2**| Testing framework for all unit tests               |
+| 🧰 **Maven**       | Build automation and dependency management tool     |
+| 📏 **Regex**        | Used (`Pattern`, `Matcher`) to extract custom delimiters dynamically |
 
+This lightweight and powerful tech stack enables rapid test-driven development and clean, maintainable code.
+
+---
 
 ---
 
